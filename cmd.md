@@ -135,3 +135,5 @@ QEMU for virtual machines
 QBittorrent for torrents
 
 Libreoffice for Office suite
+
+Explorerpp for alternative file manager
