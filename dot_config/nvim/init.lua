@@ -10,9 +10,12 @@ if not vim.loop.fs_stat(lazypath) then
   })
 end
 vim.opt.rtp:prepend(lazypath)
-config.defaults.lazy = true
 
-require("lazy").setup("plugins")
+vim.g.mapleader = ' '
 
-require("options")
+require("lazy").setup("abso.plugins")
+
+require "abso.options"
+
+require "abso.keybinds"
 

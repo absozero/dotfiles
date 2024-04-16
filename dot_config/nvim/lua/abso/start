@@ -1,0 +1,147 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.022  000.022: --- NVIM STARTING ---
+000.123  000.100: event init
+000.383  000.260: early init
+026.441  026.058: locale set
+026.550  000.109: init first window
+027.414  000.864: inits 1
+027.505  000.091: window checked
+027.523  000.018: parsing arguments
+029.143  000.428  000.428: require('vim.shared')
+030.125  000.370  000.370: require('vim._options')
+030.136  000.978  000.608: require('vim._editor')
+030.143  001.592  000.186: require('vim._init_packages')
+030.160  001.045: init lua interpreter
+030.576  000.416: expanding arguments
+030.660  000.083: inits 2
+031.595  000.935: init highlight
+031.602  000.008: waiting for UI
+031.953  000.351: done waiting for UI
+031.976  000.023: clear screen
+032.369  000.393: init default mappings & autocommands
+035.193  000.174  000.174: sourcing D:\app\nvim-win64\share\nvim\runtime\ftplugin.vim
+036.032  000.107  000.107: sourcing D:\app\nvim-win64\share\nvim\runtime\indent.vim
+039.737  002.525  002.525: require('lazy')
+039.916  000.090  000.090: require('ffi')
+040.369  000.433  000.433: require('vim.loader')
+040.872  000.299  000.299: require('vim.fs')
+041.250  000.707  000.408: require('lazy.stats')
+041.885  000.372  000.372: require('lazy.core.util')
+042.187  000.289  000.289: require('lazy.core.config')
+042.776  000.312  000.312: require('lazy.core.handler')
+043.111  000.323  000.323: require('lazy.core.plugin')
+043.138  000.940  000.305: require('lazy.core.loader')
+044.324  000.282  000.282: require('abso.plugins')
+044.755  000.345  000.345: require('abso.plugins.telescope')
+044.977  000.193  000.193: require('abso.plugins.tree')
+045.384  000.240  000.240: require('lazy.core.handler.cmd')
+045.813  000.217  000.217: require('lazy.core.handler.event')
+045.825  000.427  000.210: require('lazy.core.handler.ft')
+046.090  000.255  000.255: require('lazy.core.handler.keys')
+048.298  001.605  001.605: sourcing D:\app\nvim-win64\share\nvim\runtime/filetype.lua
+053.521  000.471  000.471: require('ibl.utils')
+053.542  000.755  000.284: require('ibl.config')
+054.173  000.311  000.311: require('ibl.indent')
+054.194  000.643  000.333: require('ibl.hooks')
+054.204  001.675  000.276: require('ibl.highlights')
+054.448  000.237  000.237: require('ibl.autocmds')
+054.747  000.288  000.288: require('ibl.inlay_hints')
+054.989  000.231  000.231: require('ibl.virt_text')
+056.060  000.790  000.790: require('ibl.scope_languages')
+056.085  001.086  000.296: require('ibl.scope')
+056.114  006.027  002.511: require('ibl')
+058.404  000.444  000.444: require('vim.lsp.log')
+059.105  000.685  000.685: require('vim.lsp.protocol')
+059.843  000.342  000.342: require('vim.lsp._snippet')
+060.114  000.258  000.258: require('vim.highlight')
+060.169  000.043  000.043: require('vim.F')
+060.205  001.087  000.444: require('vim.lsp.util')
+060.226  002.717  000.501: require('vim.lsp.handlers')
+060.714  000.480  000.480: require('vim.lsp.rpc')
+061.045  000.317  000.317: require('vim.lsp.sync')
+061.537  000.480  000.480: require('vim.lsp.semantic_tokens')
+061.996  000.443  000.443: require('vim.lsp.buf')
+062.333  000.325  000.325: require('vim.lsp.diagnostic')
+062.707  000.361  000.361: require('vim.lsp.codelens')
+062.828  006.621  001.497: require('vim.lsp')
+065.407  000.111  000.111: sourcing C:/Users/Lenovo/AppData/Local/nvim-data/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim
+071.167  000.158  000.158: sourcing C:/Users/Lenovo/AppData/Local/nvim-data/lazy/plenary.nvim/plugin/plenary.vim
+073.364  000.216  000.216: require('vim.keymap')
+073.519  001.830  001.614: sourcing C:/Users/Lenovo/AppData/Local/nvim-data/lazy/telescope.nvim/plugin/telescope.lua
+078.670  000.232  000.232: require('auto-save.config')
+078.689  002.768  002.536: require('auto-save')
+080.171  000.298  000.298: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/editorconfig.lua
+081.409  000.676  000.676: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/gzip.vim
+082.030  000.053  000.053: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/health.vim
+082.992  000.309  000.309: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/man.lua
+087.570  000.668  000.668: sourcing D:\app\nvim-win64\share\nvim\runtime\pack\dist\opt\matchit\plugin\matchit.vim
+088.206  004.605  003.936: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/matchit.vim
+089.724  000.699  000.699: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/matchparen.vim
+091.741  001.351  001.351: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/netrwPlugin.vim
+093.244  000.537  000.537: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/nvim.lua
+094.927  000.994  000.994: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/rplugin.vim
+096.685  000.270  000.270: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/shada.vim
+097.403  000.091  000.091: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/spellfile.vim
+098.272  000.320  000.320: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/tarPlugin.vim
+099.097  000.260  000.260: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/tohtml.vim
+099.715  000.073  000.073: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/tutor.vim
+100.803  000.509  000.509: sourcing D:\app\nvim-win64\share\nvim\runtime/plugin/zipPlugin.vim
+101.867  000.345  000.345: sourcing C:\Users\Lenovo\AppData\Local\nvim-data\lazy\indent-blankline.nvim\after/plugin/commands.lua
+116.572  000.898  000.898: require('catppuccin')
+117.129  000.229  000.229: require('catppuccin.lib.hashing')
+119.925  004.322  003.195: sourcing C:\Users\Lenovo\AppData\Local\nvim-data\lazy\catppuccin\colors\catppuccin.vim
+121.744  000.324  000.324: require('lualine_require')
+123.021  002.024  001.700: require('lualine')
+125.806  000.229  000.229: require('catppuccin.utils.lualine')
+126.050  000.232  000.232: require('catppuccin.palettes')
+126.250  000.187  000.187: require('catppuccin.palettes.mocha')
+135.062  000.284  000.284: require('lualine.utils.mode')
+154.179  000.293  000.293: require('bufferline.lazy')
+154.601  000.394  000.394: require('bufferline.commands')
+155.076  000.434  000.434: require('bufferline.config')
+155.094  001.570  000.450: require('bufferline')
+155.551  000.420  000.420: require('bufferline.utils')
+155.957  000.392  000.392: require('vim.version')
+160.338  000.454  000.454: require('bufferline.groups')
+160.636  000.251  000.251: require('bufferline.constants')
+160.852  000.199  000.199: require('bufferline.colors')
+161.322  000.233  000.233: require('bufferline.highlights')
+164.478  002.049  002.049: require('bufferline.hover')
+165.240  000.635  000.635: require('bufferline.ui')
+165.349  012.194  005.990: require('abso.options.opt')
+165.360  060.966  041.495: require('abso.options')
+165.952  000.337  000.337: require('telescope.builtin')
+166.081  000.714  000.377: require('abso.keybinds')
+166.091  129.241  029.954: sourcing C:\Users\Lenovo\AppData\Local\nvim\init.lua
+166.165  004.275: sourcing vimrc file(s)
+168.256  000.368  000.368: sourcing D:\app\nvim-win64\share\nvim\runtime\filetype.lua
+170.645  000.229  000.229: sourcing D:\app\nvim-win64\share\nvim\runtime\syntax\synload.vim
+171.767  002.457  002.228: sourcing D:\app\nvim-win64\share\nvim\runtime\syntax\syntax.vim
+171.846  002.855: inits 3
+179.078  007.232: reading ShaDa
+180.504  001.426: opening buffers
+183.487  000.574  000.574: require('bufferline.state')
+183.522  002.444: BufEnter autocommands
+183.529  000.007: editing files in windows
+184.729  001.199: VimEnter autocommands
+185.169  000.441: UIEnter autocommands
+187.631  002.462: before starting main loop
+188.448  000.228  000.228: require('bufferline.pick')
+188.667  000.204  000.204: require('bufferline.duplicates')
+188.981  000.302  000.302: require('bufferline.diagnostics')
+189.214  000.222  000.222: require('bufferline.models')
+189.226  001.358  000.401: require('bufferline.buffers')
+190.481  000.678  000.678: require('nvim-web-devicons.icons-default')
+190.721  001.249  000.571: require('nvim-web-devicons')
+195.819  000.327  000.327: require('bufferline.numbers')
+196.220  000.239  000.239: require('bufferline.sorters')
+196.536  000.254  000.254: require('bufferline.tabpages')
+197.155  000.408  000.408: require('bufferline.offset')
+197.453  000.275  000.275: require('bufferline.custom_area')
+202.394  010.655: first screen update
+202.409  000.015: --- NVIM STARTED ---
