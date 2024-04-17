@@ -27,7 +27,7 @@ return {
 	      '',
 	      '╭╯                      ☯                      ╰╮',
 	      '╭───────────────────────────────────────────────╮',
-	      '│☸ Be aware of the time that you are spending. ☘│',
+	      '│☽ Be aware of the time that you are spending. ☾│',
     	      '┕╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍┙'
 	},
       project = { limit = 6 },
