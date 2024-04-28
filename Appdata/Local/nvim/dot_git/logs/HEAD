@@ -1,5 +1,0 @@
-0000000000000000000000000000000000000000 494de0e149901ca284e1c08cf6030a22c30b9570 Absozero <aswsub123@gmail.com> 1697622656 -0700	commit (initial): Added a boilerplate - base config
-494de0e149901ca284e1c08cf6030a22c30b9570 e8edfa4a1c70296818cb92e4a776aac218c03248 Absozero <aswsub123@gmail.com> 1697623298 -0700	pull: Fast-forward
-e8edfa4a1c70296818cb92e4a776aac218c03248 ab2398077b162990bc921eaa0efde848099f055a Absozero <aswsub123@gmail.com> 1697623321 -0700	pull: Fast-forward
-ab2398077b162990bc921eaa0efde848099f055a 35fbb14c53061bd43c35e62cebd8210e36d4783e Absozero <aswsub123@gmail.com> 1714290793 -0700	commit: fix(keybinds): Fixes some keybinding issues related to setting the cwd
-35fbb14c53061bd43c35e62cebd8210e36d4783e 8e817c41b1700d8a04ef706ed4d9194f5eef08ac Absozero <aswsub123@gmail.com> 1714300149 -0700	commit: feat(cwd): Completed cwd switching feature integrated with nvim-tree
