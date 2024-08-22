@@ -1,0 +1,54 @@
+source $HOME/.config/antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundle sudo
+antigen bundle copydir
+antigen bundle web-search
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle git
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen theme robbyrussell
+
+# Tell Antigen that you're done.
+antigen apply
+
+# Ignore lines which begin with a <space> and match previous entries.
+# Erase duplicate entries in history file.
+HISTCONTROL=ignoreboth:erasedups
+
+# Ignore saving short- and other listed commands to the history file.
+HISTIGNORE=?:??:history
+
+# The maximum number of lines in the history file.
+HISTFILESIZE=99999
+
+# The number of entries to save in the history file.
+HISTSIZE=99999
+
+# Set Bash to save each command to history, right after it has been executed.
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+
+alias cd=z
+alias ls=eza
+alias vim=nvim
+alias df=duf
+alias du=dust
+alias cat="bat --paging=never"
+alias grep=rg
+alias find=fd
+alias http=xh
+alias nano=micro
+alias ps=procs
+
+export PATH="$PATH:$HOME/.local/bin"
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+export EDITOR=/sbin/nvim
+
+. "$HOME/.asdf/asdf.sh"
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
