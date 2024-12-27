@@ -14,6 +14,8 @@ cht.sh/tldr(tealdeer) for cheatsheet
 
 eza for ls
 
+qalc for CLI calculator
+
 lazygit for git ui
 
 gdu/dust for du
@@ -33,6 +35,8 @@ fd for find
 tokei/onefetch for code count/info
 
 procs for ps
+
+gs/qpdf for pdfs
 
 hyperfine for benchmarks
 
