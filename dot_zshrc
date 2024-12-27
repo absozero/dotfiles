@@ -47,8 +47,10 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 export EDITOR=/sbin/nvim
 
-. "$HOME/.asdf/asdf.sh"
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+eval "$(~/.local/bin/mise activate zsh)"
+
+export PATH=$PATH:/home/aswath/.spicetify

@@ -9,19 +9,17 @@ vim.keymap.set("n", "nt", "<cmd>NvimTreeToggle<cr>")
 
 local wk = require("which-key")
 
-wk.register({
-  ["f"] = { name = "telescope" },
+wk.add({
+    { "f", group = "telescope" },
+    { "fb", desc = "Telescope find in buffer" },
+    { "ff", desc = "Telescope find file" },
+    { "fg", desc = "Telescope grep" },
+    { "fh", desc = "Telescope help" },
+  })
 
-  ["ff"] = "Telescope find file",
-  ["fg"] = "Telescope grep",
-  ["fb"] = "Telescope find in buffer",
-  ["fh"] = "Telescope help",
-})
-
-wk.register({
-  ["n"] = { name = "Neo Tree" },
-
-  ["nt"] = "Open Neo tree",
-})
+wk.add({
+    { "n", group = "Neo Tree" },
+    { "nt", desc = "Open Neo tree" },
+  })
 
 
