@@ -7,7 +7,7 @@ return {
          local configs = require("nvim-treesitter.configs")
 
          configs.setup({
-            ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
+            ensure_installed = { "c", "cpp", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
             sync_install = false,
             highlight = { enable = true },
             indent = { enable = true },
@@ -26,16 +26,6 @@ return {
       },
    },
    { "akinsho/bufferline.nvim", version = "*", dependencies = "nvim-tree/nvim-web-devicons" },
-   {
-      "https://git.sr.ht/~nedia/auto-save.nvim",
-      event = { "BufReadPre" },
-      lazy = false,
-      opts = {
-         events = { "InsertLeave", "BufLeave" },
-         silent = false,
-         exclude_ft = { "neo-tree" },
-      },
-   },
    { "nvim-lualine/lualine.nvim", dependencies = {
       "nvim-tree/nvim-web-devicons",
    } },

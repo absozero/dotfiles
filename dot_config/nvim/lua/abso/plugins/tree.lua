@@ -15,6 +15,13 @@ return {
                visible = true,
             },
          },
+         window = {
+            position = "float",
+            mappings = {
+                ["<Esc>"] = "close_window"
+        },
+         },
+        popup_border_style = "rounded"
       })
    end,
 }
