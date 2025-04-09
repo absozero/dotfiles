@@ -41,6 +41,7 @@ alias find=fd
 alias http=xh
 alias nano=micro
 alias ps=procs
+alias srcpy="scrcpy -Sw -b 3500000 -m 1400 --print-fps --shortcut-mod=lctrl"
 
 export PATH="$PATH:$HOME/.local/bin"
 export BUN_INSTALL="$HOME/.bun"

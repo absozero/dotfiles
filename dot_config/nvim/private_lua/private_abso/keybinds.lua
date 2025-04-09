@@ -4,6 +4,8 @@ vim.keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory
 vim.keymap.set("n", "ff", builtin.find_files, {})
 vim.keymap.set("n", "fg", builtin.live_grep, {})
 vim.keymap.set("n", "fb", builtin.buffers, {})
+vim.keymap.set("n", "cmd", builtin.keymaps, {})
+vim.keymap.set("n", "flsp", builtin.lsp_dynamic_workspace_symbols, {})
 vim.keymap.set("n", "fh", builtin.help_tags, {})
 
 vim.keymap.set("n", "nt", "<cmd>Neotree reveal=true position=float toggle=true<cr>")
@@ -14,6 +16,7 @@ wk.add({
    { "f", group = "telescope" },
    { "fb", desc = "Telescope find in buffer" },
    { "ff", desc = "Telescope find file" },
+   { "flsp", desc = "Telescope find lsp symbols" },
    { "fg", desc = "Telescope grep" },
    { "fh", desc = "Telescope help" },
 })
